@@ -16,8 +16,8 @@
   - Gensim을 사용하여 Dictionary 생성 및 **Bag of Words 모델 구축**  
   - 각 토픽의 **혼란도(Perplexity)** 및 **일관성(Cohesion Score)** 계산  
   - 실험 결과 **PorterStemmer 방법이 가장 좋은 성과**  
-
 📁 관련 파일: topic_modeling.ipynb
+
 ---
 
 ### **2. 감성 분석 (Sentiment Analysis)**  
@@ -28,16 +28,14 @@
   - TF-IDF, CountVectorizer를 활용하여 벡터화  
   - 모델: Naive Bayes, Logistic Regression, SVM
   - 성능 평가: **Confusion Matrix 활용**  
-
-📁 관련 파일: sentiment_analysis.ipynb
+관련 파일: sentiment_analysis.ipynb
 
 ---
 ### **3. LSTM을 활용한 감성 분석**  
 - 감정 분석과 동일한 데이터셋을 활용하여 **Word2Vec 임베딩 + LSTM 모델 적용**  
 - 문장의 길이 분포 확인 후, **최적의 문장 길이(20단어)** 설정  
 - LSTM 기반 감성 분석 모델을 학습 및 평가  
-
-📁 관련 파일: sentanaly_LSTM.ipynb
+- 관련 파일: sentanaly_LSTM.ipynb
 
 ---
 
